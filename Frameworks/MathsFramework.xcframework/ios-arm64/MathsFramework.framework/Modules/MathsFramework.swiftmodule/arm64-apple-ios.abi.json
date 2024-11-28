@@ -1,0 +1,123 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MathsFramework",
+    "printedName": "MathsFramework",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "Maths",
+        "printedName": "Maths",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Maths",
+                "printedName": "MathsFramework.Maths",
+                "usr": "s:14MathsFramework0A0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MathsFramework0A0CACycfc",
+            "mangledName": "$s14MathsFramework0A0CACycfc",
+            "moduleName": "MathsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "GetAbsoluteValue",
+            "printedName": "GetAbsoluteValue(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MathsFramework0A0C16GetAbsoluteValueyS2dF",
+            "mangledName": "$s14MathsFramework0A0C16GetAbsoluteValueyS2dF",
+            "moduleName": "MathsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Multiply",
+            "printedName": "Multiply(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MathsFramework0A0C8MultiplyyS2d_SdtF",
+            "mangledName": "$s14MathsFramework0A0C8MultiplyyS2d_SdtF",
+            "moduleName": "MathsFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MathsFramework0A0C",
+        "mangledName": "$s14MathsFramework0A0C",
+        "moduleName": "MathsFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
